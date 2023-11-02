@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <h1>LATIHAN FORM</h1>
+    <section>
+        <form action=""  method="POST">
+            <label for="">Full Name</label><br>
+            <input type="text" placeholder="Input Your Name" id="name" name="name" required>
+            <br>
+
+            <br>
+            <input type="radio" value="male" id="male" name="gender"> <label for="male">Male</label>
+            <input type="radio" value="female" id="female" name="gender"> <label for="female">Female</label>
+            <br>
+
+            <br>
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="name@cvcvc.com" id="email" name="email" required> 
+            <br>
+
+            <br>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="Input Your Password" id="password" name="password" required> 
+            <br>
+
+            <br>
+            <label for="deskripsi">Deskripsi</label><br>
+            <textarea placeholder="Deskripsi" id="deskripsi" name="deskripsi"></textarea>
+            <br>
+
+            <br>
+            <label for="phonenumber">Phone Number</label><br>
+            <input type="tel" placeholder="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phonenumber" name="phonenumber"><br>
+            <span style="color: grey;">phone number using this required format 08X-XXX-XXXX</span>
+            <br>
+
+            <br>
+            <label for="hobby">chose your hobby</label><br>
+            <select id="hobby" name="hobby">
+                <option value="mancing">mancing</option>
+                <option value="nge-game">nge-game</option>
+                <option value="ternak lele">ternak lele</option>
+                <option value="turu">turu</option>
+                <option value="scroll tiktok">scrol tiktok</option>
+            </select>
+            <br>
+            <br>
+
+            <input type="submit" value="KIRIM FORM">
+        </form>
+    </section>
+    <br>
+    <hr>
+    <h1>LATIHAN TABLE</h1>
+    <section>
+        <table border="1" cellspacing="2" cellpadding="4">
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sani</td>
+                <td>sani@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Iput</td>
+                <td>iput@gmail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bondong</td>
+                <td>Bondong@gmail.com</td>
+            </tr>
+        </table>
+        <br>
+    </section>
+
+    <hr>
+    <h1>LATIHAN GAMBAR</h1>
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oUFJJNQGwhk?si=G2al2BqYvKQP6uiD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        
+        <img src="./bazzi.png" width="500px">
+    </section>
+</body>
+</html>

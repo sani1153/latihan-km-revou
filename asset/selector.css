@@ -1,0 +1,47 @@
+/* Univesal selector */
+/* Apply basic reset to all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* element selector
+style to all <h1> <p> headings */
+h1{
+    color:red;
+}
+p{
+    font-size: 55px;
+}
+
+/* class selector
+apply style to element with class "classSelector"   */
+.classSelector{
+    color: blue;
+}
+
+/* ID selector
+apply style to element with id "idSelector"   */
+#idSelector{
+    color: green;
+    size: 30px;
+}
+
+/* Decendant selector
+style <h2> headline inside <header> element */
+header h3{
+    color: aliceblue;
+}
+
+/* pseudo-class selector
+change link color on hover */
+a:hover{
+    color: blueviolet;
+}
+
+/* attribute selector
+apply bold font weight to element with data-custom="important"  */
+[data-custom="important"]{
+    font-weight: bold;
+}

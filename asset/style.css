@@ -1,0 +1,57 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    color:red;
+}
+
+p{
+    font-size: 55px;
+}
+
+/* class selector
+apply style to element with class "classSelector"   */
+.classSelector{
+    color: blue;
+
+}
+
+.italic{
+    font-style: italic;
+}
+
+/* ID selector
+apply style to element with id "idSelector"   */
+#idSelector{
+    color: green;
+    size: 30px;
+}
+
+/* Decendant selector
+style <h2> headline inside <header> element */
+p .plah{
+    color: rgb(0, 123, 231);
+}
+
+/* pseudo-class selector
+change p color on hover */
+.phah:hover{
+    color: blueviolet;
+}
+
+/* attribute selector
+apply bold font weight to element with data-custom="important"  */
+[data-custom="important"]{
+    font-weight: bold;
+}
+
+.box{
+    background-color: darkgreen;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    margin: 100px;
+    border: 10px dashed black;
+
+}
